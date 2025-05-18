@@ -1,0 +1,35 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.code-block {
+  background-color: #1a1a1a;
+  color: #4ade80;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-family: monospace;
+}
+
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+}
+
+.step-content {
+  min-height: 400px;
+}
+
+.nav-button {
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+  background-color: #fff8c5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
