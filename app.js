@@ -1,6 +1,6 @@
 // app.js - 整合版本，將 app-part1.js 和 app-part2.js 的內容結合
 const { useState } = React;
-const { Facebook, Youtube, Github } = lucideReact;
+const { Facebook, Youtube, Github } = window.lucideReact;
 
 const InstallationGuide = () => {
   const [currentStep, setCurrentStep] = useState(1);
